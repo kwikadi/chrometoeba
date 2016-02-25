@@ -7,11 +7,11 @@
   
   "version": "0.1.0",
   
-  "permissions": "contextMenus",
+  "permissions": ["contextMenus"],
   
   "background": {
     "persistent": false,
-    "scripts": "js/tatosearch.js"
+    "scripts": ["js/tatosearch.js"]
   },
   
   "icons" : {
