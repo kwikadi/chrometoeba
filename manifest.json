@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Tatoeba Search",
+
+  "description": "Provides a context menu to look for example sentences using the highlighted word in Tatoeba.org",
+  
+  "version": "0.1.0",
+  
+  "permissions": "contextMenus",
+  
+  "background": {
+    "persistent": false,
+    "scripts": "js/tatosearch.js"
+  },
+  
+  "icons" : {
+    "16" : "img/tatoeba-small.png",
+    "128" : "img/tatoeba-large.png"
+  }
+    
+}
