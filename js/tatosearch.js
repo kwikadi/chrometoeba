@@ -1,7 +1,7 @@
 // Set up context menu at install time.
 chrome.runtime.onInstalled.addListener(function() {
+  var title = "Look up '%s' on Tatoeba";
   var context = "selection";
-  var title = "Look up on Tatoeba";
   var id = chrome.contextMenus.create({"title": title, "contexts":[context],
                                          "id": "context" + context});  
 });

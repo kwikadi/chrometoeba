@@ -6,4 +6,4 @@ ChromeToeba is an extention for Chrome which adds a context menu when text is se
 
 ### TODO:
 
-* Make context menu text dynamic
+* ~~Make context menu text dynamic~~
